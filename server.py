@@ -21,4 +21,5 @@ def sharkwords():
 
 
 if __name__ == "__main__":
-    app.run(debug=True, host="0.0.0.0")
+    app.run(debug=True, host="0.0.0.0", port=5002) 
+    # changed to port 5002 so shanna could see it
